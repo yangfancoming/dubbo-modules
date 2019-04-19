@@ -18,10 +18,17 @@
     <inceptionYear>2019-Now</inceptionYear>
 
     <dependencies>
+        <!--<dependency>-->
+            <!--<groupId>com.goat</groupId>-->
+            <!--<artifactId>my-commons-mapper</artifactId>-->
+            <!--<version>${project.parent.version}</version>-->
+        <!--</dependency>-->
+
         <dependency>
-            <groupId>com.goat</groupId>
-            <artifactId>my-commons-mapper</artifactId>
-            <version>${project.parent.version}</version>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
         </dependency>
+
+
     </dependencies>
 </project>
