@@ -36,20 +36,4 @@ public class TbUserServiceImpl implements TbUserService {
         return null;
     }
 
-    //    @Override
-//    public PageInfo<TbUser> page(int pageNum, int pageSize, TbUser tbUser) {
-//        String username = tbUser.getUsername();
-//        String phone = tbUser.getPhone();
-//        String email = tbUser.getEmail();
-//
-//        Example example = new Example(TbUser.class);
-//        example.createCriteria()
-//                .andLike("username", username != null ? username + "%" : null)
-//                .andLike("phone", phone != null ? phone + "%" : null)
-//                .andLike("email", email != null ? email + "%" : null);
-//
-//        PageHelper.offsetPage(pageNum, pageSize);
-//        PageInfo<TbUser> pageInfo = new PageInfo<>(tbUserMapper.selectByExample(example));
-//        return pageInfo;
-//    }
 }

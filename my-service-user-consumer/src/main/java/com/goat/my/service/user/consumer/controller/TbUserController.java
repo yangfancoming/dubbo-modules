@@ -15,7 +15,7 @@ import java.util.List;
 public class TbUserController {
 
     @Reference(version = "${services.versions.user.v1}")
-    private TbUserService tbUserService;
+    private TbUserService userService;
 
     /**
      * 跳转到列表页
@@ -24,7 +24,7 @@ public class TbUserController {
      */
     @RequestMapping(value = "list", method = RequestMethod.GET)
     public String list(Model model) {
-        List<User> users = tbUserService.selectAll();
+        List<User> users = userService.selectAll();
         model.addAttribute("users",users);
         return "user/list";
     }
