@@ -1,8 +1,5 @@
 package com.goat.my.commons.mapper;
 
-
-
-
 import com.goat.my.commons.domain.User;
 import com.goat.my.commons.domain.UserWithRole;
 import tk.mybatis.mapper.MyMapper;
