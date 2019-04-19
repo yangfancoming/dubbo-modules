@@ -59,11 +59,13 @@
                 <artifactId>mapper-spring-boot-starter</artifactId>
                 <version>${boot-mapper.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>com.github.pagehelper</groupId>
                 <artifactId>pagehelper-spring-boot-starter</artifactId>
                 <version>${boot-pagehelper.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid-spring-boot-starter</artifactId>
