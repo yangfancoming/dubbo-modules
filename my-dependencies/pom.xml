@@ -28,10 +28,9 @@
 
         <!-- Spring Boot Starter Settings -->
         <boot-dubbo.version>0.2.0</boot-dubbo.version>
-        <boot-mapper.version>2.0.2</boot-mapper.version>
+        <boot-mapper.version>3.0-RC3</boot-mapper.version>
         <boot-pagehelper.version>1.2.5</boot-pagehelper.version>
         <boot-druid.version>1.1.10</boot-druid.version>
-
         <!-- Spring Cloud Settings -->
         <cloud-hystrix.version>2.0.1.RELEASE</cloud-hystrix.version>
 
@@ -54,9 +53,16 @@
                 <artifactId>dubbo-spring-boot-actuator</artifactId>
                 <version>${boot-dubbo.version}</version>
             </dependency>
+
+            <!--<dependency>-->
+                <!--<groupId>tk.mybatis</groupId>-->
+                <!--<artifactId>mapper-spring-boot-starter</artifactId>-->
+                <!--<version>${boot-mapper.version}</version>-->
+            <!--</dependency>-->
+
             <dependency>
-                <groupId>tk.mybatis</groupId>
-                <artifactId>mapper-spring-boot-starter</artifactId>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
                 <version>${boot-mapper.version}</version>
             </dependency>
 
